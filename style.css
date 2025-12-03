@@ -32,10 +32,20 @@ span{
 }
 
 .container{
+    width: 660px;
+    height: 500px;
     display: grid;
-    grid-template-columns: 320px 320px;
+    grid-template-columns: 1fr 1fr;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
+}
+
+.foto-perfume{
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .foto-perfume img{
@@ -111,4 +121,5 @@ span{
 .btn:hover{
     background-color: hsl(158, 42%, 18%);
     transition: .3s;
+    cursor: pointer;
 }
