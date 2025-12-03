@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3,p,span,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    display: block;
+}
+
+.bg-fundo{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 320px 320px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.foto-perfume img{
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.conteudo-perfume{
+    padding: 30px;
+    display: grid;
+}
+
+.conteudo-perfume span{
+    display: block;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 500;
+    letter-spacing: .4rem;
+    font-size: .875rem;
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+.conteudo-perfume h1{
+    font-family: "Fraunces", sans-serif;;
+    max-width: 10ch;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+.conteudo-perfume p{
+    color: hsl(228, 12%, 48%);
+    max-width: 220px;
+    margin-bottom: 30px;
+    line-height: 1.3rem;
+}
+
+.preco{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.preco .valor-principal{
+    font-family: "Fraunces", sans-serif;;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    letter-spacing: normal;
+}
+
+.preco .valor-bruto{
+    letter-spacing: normal;
+    text-decoration: line-through;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border: 0;
+    padding: 18px 0px;
+}
+
+.btn:hover{
+    background-color: hsl(158, 42%, 18%);
+    transition: .3s;
+}
