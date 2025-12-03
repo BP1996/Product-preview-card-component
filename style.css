@@ -48,19 +48,12 @@ span{
     border-radius: 10px 0px 0px 10px;
 }
 
-.foto-perfume img{
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
 .conteudo-perfume{
     padding: 30px;
     display: grid;
 }
 
 .conteudo-perfume span{
-    display: block;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;;
     font-weight: 500;
@@ -114,7 +107,7 @@ span{
     gap: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    border: 0;
+    border: none;
     padding: 18px 0px;
 }
 
